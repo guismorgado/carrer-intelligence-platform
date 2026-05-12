@@ -1,5 +1,5 @@
 import re
-from fuzzywuzzy import fuzz
+from rapidfuzz import fuzz
 
 FUZZY_THRESHOLD = 88
 # Single-word skills (e.g. "R", "Go", "SQL") rely on exact word-boundary match
