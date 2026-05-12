@@ -14,10 +14,12 @@ def _load() -> dict:
 
 
 def get_recommendations(missing_skills: list[str], domain: str) -> list[dict]:
-    resources = _load().get(domain, {})
+    domain_resources = _load().get(domain, {})
+    # Case-insensitive key lookup so "sql" finds "SQL" in resources.json
+    lower_map = {k.lower(): k for k in domain_resources}
     result = []
     for skill in missing_skills:
-        skill_resources = resources.get(skill, [])
-        if skill_resources:
-            result.append({"skill": skill, "resources": skill_resources})
+        key = lower_map.get(skill.lower())
+        if key:
+            result.append({"skill": skill, "resources": domain_resources[key]})
     return result

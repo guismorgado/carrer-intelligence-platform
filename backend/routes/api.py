@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from models.skill_extractor import extract_skills
 from models.fit_analyzer import analyze_fit
 from models.recommendation_engine import get_recommendations
-from utils.validators import validate_domain
+from utils.validators import validate_domain, validate_input_text
 
 router = APIRouter()
 
@@ -19,6 +19,7 @@ class AnalyzeRequest(BaseModel):
 @router.post("/analyze")
 def analyze(request: AnalyzeRequest):
     validate_domain(request.domain, SUPPORTED_DOMAINS)
+    validate_input_text(request.cv_text, request.job_text)
 
     cv_skills = extract_skills(request.cv_text, request.domain)
     job_skills = extract_skills(request.job_text, request.domain)
