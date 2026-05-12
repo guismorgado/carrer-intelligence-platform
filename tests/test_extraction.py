@@ -78,3 +78,36 @@ def test_empty_text_returns_empty():
 def test_no_matching_skills_returns_empty():
     skills = extract_skills("I enjoy hiking and cooking.", "business_analytics")
     assert skills == []
+
+
+# --- realistic management sample ---
+
+SAMPLE_CV_MANAGEMENT = """
+Senior Project Manager with 6 years of experience in leadership and team management.
+Skilled in stakeholder management, written communication, and presentation.
+Strong background in project management, planning, organization, and prioritization.
+Tools used: Microsoft Office, Asana, Slack. Problem solving and decision making focus.
+"""
+
+SAMPLE_JD_MANAGEMENT = """
+We are looking for a Project Manager with proven leadership and team management skills.
+The role requires stakeholder management, presentation skills, and strong written communication.
+Experience with project management, planning, and organization is essential.
+Microsoft Office proficiency required. Agile and decision making skills are a plus.
+"""
+
+
+def test_cv_management_extraction():
+    skills = extract_skills(SAMPLE_CV_MANAGEMENT, "management")
+    assert "Leadership" in skills
+    assert "Project Management" in skills
+    assert "Stakeholder Management" in skills
+    assert "Microsoft Office" in skills
+
+
+def test_jd_management_extraction():
+    skills = extract_skills(SAMPLE_JD_MANAGEMENT, "management")
+    assert "Leadership" in skills
+    assert "Project Management" in skills
+    assert "Stakeholder Management" in skills
+    assert "Presentation Skills" in skills
