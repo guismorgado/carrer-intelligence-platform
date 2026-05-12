@@ -1,5 +1,606 @@
 {
-  "management": {},
-  "finance": {},
-  "business_analytics": {}
+  "management": {
+    "Leadership": [
+      {
+        "title": "Coursera: Leading Teams (University of Michigan)",
+        "time": "11 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/learn/leading-teams"
+      },
+      {
+        "title": "LinkedIn Learning: Leadership Foundations",
+        "time": "2 hours",
+        "type": "course",
+        "url": "https://www.linkedin.com/learning/leadership-foundations"
+      },
+      {
+        "title": "Book: The Five Dysfunctions of a Team – Patrick Lencioni",
+        "time": "self-paced",
+        "type": "book",
+        "url": "https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756"
+      }
+    ],
+    "Team Management": [
+      {
+        "title": "Coursera: Managing Social and Human Capital (Wharton)",
+        "time": "10 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/learn/management-human-capital"
+      },
+      {
+        "title": "LinkedIn Learning: Managing Teams",
+        "time": "3 hours",
+        "type": "course",
+        "url": "https://www.linkedin.com/learning/managing-teams"
+      }
+    ],
+    "Change Management": [
+      {
+        "title": "Coursera: Leading Organizational Change (Macquarie University)",
+        "time": "12 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/learn/leading-change-continuous-improvement"
+      },
+      {
+        "title": "Prosci: Change Management Overview (free articles)",
+        "time": "1 hour",
+        "type": "article",
+        "url": "https://www.prosci.com/resources/articles"
+      }
+    ],
+    "Stakeholder Management": [
+      {
+        "title": "PMI: Stakeholder Management Guide",
+        "time": "1 hour",
+        "type": "article",
+        "url": "https://www.pmi.org/learning/library/stakeholder-management-task-project-success-7736"
+      },
+      {
+        "title": "LinkedIn Learning: Stakeholder Management",
+        "time": "1.5 hours",
+        "type": "course",
+        "url": "https://www.linkedin.com/learning/stakeholder-management"
+      }
+    ],
+    "Project Management": [
+      {
+        "title": "Google Project Management Certificate (Coursera)",
+        "time": "6 months (flexible)",
+        "type": "certificate",
+        "url": "https://www.coursera.org/professional-certificates/google-project-management"
+      },
+      {
+        "title": "PMI: PMBOK Guide (Project Management Body of Knowledge)",
+        "time": "self-paced",
+        "type": "book",
+        "url": "https://www.pmi.org/pmbok-guide-standards/foundational/pmbok"
+      },
+      {
+        "title": "YouTube: Project Management Fundamentals – freeCodeCamp",
+        "time": "8 hours",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=EFgpO1PXnCM"
+      }
+    ],
+    "Agile": [
+      {
+        "title": "Coursera: Agile Development Specialization (University of Virginia)",
+        "time": "4 months",
+        "type": "course",
+        "url": "https://www.coursera.org/specializations/agile-development"
+      },
+      {
+        "title": "Atlassian: Agile Coach (free guides)",
+        "time": "2 hours",
+        "type": "article",
+        "url": "https://www.atlassian.com/agile"
+      }
+    ],
+    "Scrum": [
+      {
+        "title": "Scrum.org: Scrum Guide (official, free)",
+        "time": "1 hour",
+        "type": "article",
+        "url": "https://www.scrum.org/resources/scrum-guide"
+      },
+      {
+        "title": "Coursera: Scrum Master Certification Prep",
+        "time": "8 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/learn/scrum-master-certification"
+      }
+    ],
+    "Presentation Skills": [
+      {
+        "title": "Coursera: Dynamic Public Speaking (University of Washington)",
+        "time": "16 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/specializations/public-speaking"
+      },
+      {
+        "title": "TED: How to Give a Great TED Talk (Chris Anderson)",
+        "time": "1 hour",
+        "type": "video",
+        "url": "https://www.ted.com/talks/chris_anderson_teds_secret_to_great_public_speaking"
+      }
+    ],
+    "Strategic Thinking": [
+      {
+        "title": "Coursera: Business Strategy (University of Virginia Darden)",
+        "time": "9 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/learn/uva-darden-foundations-business-strategy"
+      },
+      {
+        "title": "HBR: Strategic Thinking Articles (free)",
+        "time": "self-paced",
+        "type": "article",
+        "url": "https://hbr.org/topic/strategy"
+      }
+    ],
+    "Conflict Resolution": [
+      {
+        "title": "LinkedIn Learning: Conflict Resolution Foundations",
+        "time": "1.5 hours",
+        "type": "course",
+        "url": "https://www.linkedin.com/learning/conflict-resolution-foundations"
+      },
+      {
+        "title": "Coursera: Everyday Leadership (Duke University)",
+        "time": "6 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/learn/everyday-leadership-new"
+      }
+    ],
+    "Emotional Intelligence": [
+      {
+        "title": "Coursera: Inspiring and Motivating Individuals (Michigan)",
+        "time": "10 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/learn/motivate-people-teams"
+      },
+      {
+        "title": "Book: Emotional Intelligence – Daniel Goleman",
+        "time": "self-paced",
+        "type": "book",
+        "url": "https://www.amazon.com/Emotional-Intelligence-Matter-More-Than/dp/055338371X"
+      }
+    ]
+  },
+  "finance": {
+    "Excel": [
+      {
+        "title": "Coursera: Excel Skills for Business (Macquarie University)",
+        "time": "26 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/specializations/excel"
+      },
+      {
+        "title": "ExcelJet: Excel Tips & Formulas (free reference)",
+        "time": "self-paced",
+        "type": "reference",
+        "url": "https://exceljet.net"
+      },
+      {
+        "title": "YouTube: Excel Full Course – freeCodeCamp",
+        "time": "6 hours",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Vl0H-qTclOg"
+      }
+    ],
+    "Pivot Tables": [
+      {
+        "title": "Microsoft: Pivot Tables in Excel (official tutorial)",
+        "time": "1 hour",
+        "type": "article",
+        "url": "https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576"
+      },
+      {
+        "title": "LinkedIn Learning: Excel Pivot Tables",
+        "time": "2 hours",
+        "type": "course",
+        "url": "https://www.linkedin.com/learning/excel-pivot-tables-in-depth"
+      }
+    ],
+    "VLOOKUP": [
+      {
+        "title": "ExcelJet: VLOOKUP Guide (free, with examples)",
+        "time": "30 min",
+        "type": "article",
+        "url": "https://exceljet.net/functions/vlookup-function"
+      },
+      {
+        "title": "ExcelJet: INDEX-MATCH vs VLOOKUP",
+        "time": "30 min",
+        "type": "article",
+        "url": "https://exceljet.net/index-and-match"
+      }
+    ],
+    "Financial Modeling": [
+      {
+        "title": "CFI: Financial Modeling & Valuation Analyst (FMVA)",
+        "time": "120+ hours",
+        "type": "certificate",
+        "url": "https://corporatefinanceinstitute.com/certifications/financial-modeling-valuation-analyst-fmva-certification"
+      },
+      {
+        "title": "Coursera: Financial Modeling for Startups & SMBs",
+        "time": "10 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/learn/financial-modeling"
+      },
+      {
+        "title": "YouTube: Financial Modeling Crash Course – Kenji Explains",
+        "time": "3 hours",
+        "type": "video",
+        "url": "https://www.youtube.com/c/KenjiExplains"
+      }
+    ],
+    "Financial Analysis": [
+      {
+        "title": "Coursera: Introduction to Financial Analysis (Wharton Online)",
+        "time": "12 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/learn/wharton-accounting"
+      },
+      {
+        "title": "CFI: Free Financial Analysis Course",
+        "time": "10 hours",
+        "type": "course",
+        "url": "https://corporatefinanceinstitute.com/courses/reading-financial-statements"
+      }
+    ],
+    "Forecasting": [
+      {
+        "title": "Coursera: Business Statistics and Analysis (Rice University)",
+        "time": "14 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/specializations/business-statistics-analysis"
+      },
+      {
+        "title": "CFI: Budgeting & Forecasting",
+        "time": "5 hours",
+        "type": "course",
+        "url": "https://corporatefinanceinstitute.com/courses/budgeting-forecasting-course"
+      }
+    ],
+    "Budgeting": [
+      {
+        "title": "LinkedIn Learning: Finance Foundations — Budgets",
+        "time": "2 hours",
+        "type": "course",
+        "url": "https://www.linkedin.com/learning/finance-foundations"
+      },
+      {
+        "title": "CFI: Budgeting & Forecasting",
+        "time": "5 hours",
+        "type": "course",
+        "url": "https://corporatefinanceinstitute.com/courses/budgeting-forecasting-course"
+      }
+    ],
+    "Valuation": [
+      {
+        "title": "Coursera: Valuation and Financial Analysis for Startups (Yonsei)",
+        "time": "12 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/learn/valuation"
+      },
+      {
+        "title": "Damodaran Online: Valuation (free, NYU Stern)",
+        "time": "self-paced",
+        "type": "course",
+        "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/webcastvalfall23.htm"
+      }
+    ],
+    "Power BI": [
+      {
+        "title": "Microsoft Learn: Power BI Learning Path (free)",
+        "time": "12 hours",
+        "type": "course",
+        "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi"
+      },
+      {
+        "title": "Coursera: Microsoft Power BI Data Analyst Certificate",
+        "time": "5 months",
+        "type": "certificate",
+        "url": "https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst"
+      },
+      {
+        "title": "YouTube: Power BI Full Course – Guy in a Cube",
+        "time": "4 hours",
+        "type": "video",
+        "url": "https://www.youtube.com/c/GuyinaCube"
+      }
+    ],
+    "SQL": [
+      {
+        "title": "Mode Analytics: SQL Tutorial (free, interactive)",
+        "time": "5 hours",
+        "type": "tutorial",
+        "url": "https://mode.com/sql-tutorial"
+      },
+      {
+        "title": "DataCamp: Introduction to SQL",
+        "time": "4 hours",
+        "type": "course",
+        "url": "https://www.datacamp.com/courses/introduction-to-sql"
+      },
+      {
+        "title": "SQLZoo: Interactive SQL Practice (free)",
+        "time": "self-paced",
+        "type": "practice",
+        "url": "https://sqlzoo.net"
+      }
+    ],
+    "Financial Accounting": [
+      {
+        "title": "Coursera: Introduction to Financial Accounting (Wharton)",
+        "time": "15 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/learn/wharton-accounting"
+      },
+      {
+        "title": "Khan Academy: Accounting and Financial Statements (free)",
+        "time": "self-paced",
+        "type": "course",
+        "url": "https://www.khanacademy.org/economics-finance-domain/core-finance/accounting-and-financial-stateme"
+      }
+    ],
+    "Ratio Analysis": [
+      {
+        "title": "Investopedia: Financial Ratios Guide (free)",
+        "time": "2 hours",
+        "type": "article",
+        "url": "https://www.investopedia.com/financial-ratios-4689817"
+      },
+      {
+        "title": "CFI: Financial Ratios Reference",
+        "time": "1 hour",
+        "type": "article",
+        "url": "https://corporatefinanceinstitute.com/resources/accounting/financial-ratios"
+      }
+    ],
+    "Tableau": [
+      {
+        "title": "Tableau: Free Training Videos (official)",
+        "time": "6 hours",
+        "type": "course",
+        "url": "https://www.tableau.com/learn/training"
+      },
+      {
+        "title": "Coursera: Data Visualization with Tableau (UC Davis)",
+        "time": "20 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/specializations/data-visualization"
+      }
+    ]
+  },
+  "business_analytics": {
+    "SQL": [
+      {
+        "title": "Mode Analytics: SQL Tutorial (free, interactive)",
+        "time": "5 hours",
+        "type": "tutorial",
+        "url": "https://mode.com/sql-tutorial"
+      },
+      {
+        "title": "DataCamp: SQL for Data Analysis",
+        "time": "25 hours",
+        "type": "course",
+        "url": "https://www.datacamp.com/tracks/sql-fundamentals"
+      },
+      {
+        "title": "LeetCode: SQL Practice (free)",
+        "time": "self-paced",
+        "type": "practice",
+        "url": "https://leetcode.com/problemset/database"
+      }
+    ],
+    "Python": [
+      {
+        "title": "DataCamp: Python for Data Science",
+        "time": "36 hours",
+        "type": "course",
+        "url": "https://www.datacamp.com/tracks/python-fundamentals"
+      },
+      {
+        "title": "freeCodeCamp: Python Full Course (YouTube)",
+        "time": "12 hours",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+      },
+      {
+        "title": "Kaggle: Python (free, interactive)",
+        "time": "5 hours",
+        "type": "course",
+        "url": "https://www.kaggle.com/learn/python"
+      }
+    ],
+    "Pandas": [
+      {
+        "title": "DataCamp: Pandas Fundamentals",
+        "time": "16 hours",
+        "type": "course",
+        "url": "https://www.datacamp.com/courses/data-manipulation-with-pandas"
+      },
+      {
+        "title": "Kaggle: Pandas (free, interactive)",
+        "time": "4 hours",
+        "type": "course",
+        "url": "https://www.kaggle.com/learn/pandas"
+      },
+      {
+        "title": "Pandas Official Documentation (free)",
+        "time": "self-paced",
+        "type": "reference",
+        "url": "https://pandas.pydata.org/docs/getting_started/intro_tutorials"
+      }
+    ],
+    "Tableau": [
+      {
+        "title": "Tableau: Free Training Videos (official)",
+        "time": "6 hours",
+        "type": "course",
+        "url": "https://www.tableau.com/learn/training"
+      },
+      {
+        "title": "Coursera: Data Visualization with Tableau (UC Davis)",
+        "time": "20 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/specializations/data-visualization"
+      },
+      {
+        "title": "Kaggle: Data Visualization (free)",
+        "time": "4 hours",
+        "type": "course",
+        "url": "https://www.kaggle.com/learn/data-visualization"
+      }
+    ],
+    "Power BI": [
+      {
+        "title": "Microsoft Learn: Power BI Learning Path (free)",
+        "time": "12 hours",
+        "type": "course",
+        "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi"
+      },
+      {
+        "title": "Coursera: Microsoft Power BI Data Analyst Certificate",
+        "time": "5 months",
+        "type": "certificate",
+        "url": "https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst"
+      }
+    ],
+    "Statistical Analysis": [
+      {
+        "title": "Khan Academy: Statistics and Probability (free)",
+        "time": "self-paced",
+        "type": "course",
+        "url": "https://www.khanacademy.org/math/statistics-probability"
+      },
+      {
+        "title": "Coursera: Statistics with Python (University of Michigan)",
+        "time": "20 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/specializations/statistics-with-python"
+      }
+    ],
+    "A/B Testing": [
+      {
+        "title": "Udacity: A/B Testing (Google, free)",
+        "time": "8 hours",
+        "type": "course",
+        "url": "https://www.udacity.com/course/ab-testing--ud979"
+      },
+      {
+        "title": "Evan Miller: A/B Testing Tools & Theory (free articles)",
+        "time": "1 hour",
+        "type": "article",
+        "url": "https://www.evanmiller.org/ab-testing"
+      },
+      {
+        "title": "Coursera: A/B Testing for Business Analysts (UC Davis)",
+        "time": "5 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/learn/bayesian-statistics"
+      }
+    ],
+    "Hypothesis Testing": [
+      {
+        "title": "Khan Academy: Significance Tests (free)",
+        "time": "self-paced",
+        "type": "course",
+        "url": "https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample"
+      },
+      {
+        "title": "DataCamp: Hypothesis Testing in Python",
+        "time": "4 hours",
+        "type": "course",
+        "url": "https://www.datacamp.com/courses/hypothesis-testing-in-python"
+      }
+    ],
+    "Regression": [
+      {
+        "title": "Coursera: Machine Learning by Andrew Ng (Stanford) – Regression module",
+        "time": "5 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/learn/machine-learning"
+      },
+      {
+        "title": "Kaggle: Intro to Machine Learning (free)",
+        "time": "3 hours",
+        "type": "course",
+        "url": "https://www.kaggle.com/learn/intro-to-machine-learning"
+      }
+    ],
+    "Data Visualization": [
+      {
+        "title": "Kaggle: Data Visualization (free, Python-based)",
+        "time": "4 hours",
+        "type": "course",
+        "url": "https://www.kaggle.com/learn/data-visualization"
+      },
+      {
+        "title": "Coursera: Data Visualization with Python (IBM)",
+        "time": "8 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/learn/python-for-data-visualization"
+      }
+    ],
+    "Dashboard Design": [
+      {
+        "title": "Tableau: Dashboard Best Practices (official docs)",
+        "time": "1 hour",
+        "type": "article",
+        "url": "https://help.tableau.com/current/pro/desktop/en-us/dashboards_best_practices.htm"
+      },
+      {
+        "title": "LinkedIn Learning: Designing Data Dashboards",
+        "time": "2 hours",
+        "type": "course",
+        "url": "https://www.linkedin.com/learning/designing-data-dashboards"
+      }
+    ],
+    "Data Storytelling": [
+      {
+        "title": "Coursera: Communicating Data Science Results (University of Washington)",
+        "time": "8 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/learn/data-results"
+      },
+      {
+        "title": "Book: Storytelling with Data – Cole Nussbaumer Knaflic",
+        "time": "self-paced",
+        "type": "book",
+        "url": "https://www.storytellingwithdata.com/books"
+      }
+    ],
+    "Excel": [
+      {
+        "title": "Coursera: Excel Skills for Business (Macquarie University)",
+        "time": "26 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/specializations/excel"
+      },
+      {
+        "title": "ExcelJet: Excel Tips & Formulas (free reference)",
+        "time": "self-paced",
+        "type": "reference",
+        "url": "https://exceljet.net"
+      }
+    ],
+    "KPI Definition": [
+      {
+        "title": "Bernard Marr: KPI Library & Articles (free)",
+        "time": "1 hour",
+        "type": "article",
+        "url": "https://bernardmarr.com/kpi-library"
+      },
+      {
+        "title": "Coursera: Business Metrics for Data-Driven Companies (Duke)",
+        "time": "6 hours",
+        "type": "course",
+        "url": "https://www.coursera.org/learn/analytics-business-metrics"
+      }
+    ]
+  }
 }
