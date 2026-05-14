@@ -1,8 +1,8 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import DomainSelector from '../components/DomainSelector'
-import { analyzeCV } from '../services/api'
+import { analyzeCV, pingBackend } from '../services/api'
 
 const MIN_LENGTH = 100
 
@@ -13,6 +13,11 @@ export default function InputPage() {
   const [domain, setDomain] = useState('finance')
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
+  const [warming, setWarming] = useState(true)
+
+  useEffect(() => {
+    pingBackend().finally(() => setWarming(false))
+  }, [])
 
   const cvReady = cvText.trim().length >= MIN_LENGTH
   const jobReady = jobText.trim().length >= MIN_LENGTH
@@ -27,14 +32,14 @@ export default function InputPage() {
       navigate('/results', { state: { results } })
     } catch (err) {
       if (axios.isAxiosError(err)) {
-        const detail = err.response?.data?.detail
-        setError(
-          typeof detail === 'string'
-            ? detail
-            : 'Something went wrong. Is the backend running on port 8000?',
-        )
+        if (!err.response) {
+          setError('The server is still starting up. Please wait about 30 seconds and try again.')
+        } else {
+          const detail = err.response.data?.detail
+          setError(typeof detail === 'string' ? detail : 'Something went wrong. Please try again.')
+        }
       } else {
-        setError('Unable to reach the server. Make sure the backend is running.')
+        setError('Unable to reach the server. Please try again.')
       }
     } finally {
       setLoading(false)
@@ -59,6 +64,12 @@ export default function InputPage() {
           learning recommendations.
         </p>
       </header>
+
+      {warming && (
+        <p className="warming-notice">
+          Server is starting up — your first analysis may take up to 60 seconds.
+        </p>
+      )}
 
       <form className="input-card" onSubmit={handleSubmit} noValidate>
         <div className="text-areas">

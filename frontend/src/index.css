@@ -448,6 +448,17 @@ body {
 
 .text-muted { color: var(--text-muted); }
 
+.warming-notice {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #92400e;
+  background: #fef9c3;
+  border: 1px solid #fcd34d;
+  border-radius: var(--radius);
+  padding: 0.6rem 1rem;
+  margin-bottom: 1rem;
+}
+
 /* =====================================================
    RESPONSIVE — tablet / mobile
    ===================================================== */

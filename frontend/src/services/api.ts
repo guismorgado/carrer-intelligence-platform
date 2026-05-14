@@ -43,3 +43,7 @@ export async function analyzeCV(request: AnalyzeRequest): Promise<AnalyzeRespons
   const { data } = await http.post<AnalyzeResponse>('/api/analyze', request)
   return data
 }
+
+export async function pingBackend(): Promise<void> {
+  await http.get('/health', { timeout: 60_000 })
+}
